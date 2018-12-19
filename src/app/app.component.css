@@ -1,0 +1,42 @@
+.navalign{
+    /* border: red double; */
+    margin-left: 112px;
+    margin-right: 111px;
+}
+
+.pageheadercenter{
+    text-align: center;    
+    -webkit-text-stroke-width:medium;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+    font-size: 35px;
+    margin: 0px 575px;
+}
+
+.borderstyle
+{
+    border: 1px solid blue;
+}
+
+/* .nav-link :active{
+    background-color: transparent !important;
+} */
+
+.nav-item :active{
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;  
+    background-color: transparent !important;
+    color: transparent !important;
+    border-radius: 10px; 
+}
+
+#addtask:hover
+{
+    border: 2px blue double;
+    border-radius: 10px;    
+}
+
+#vtasks:hover
+{
+    border: 2px blue double;
+    border-radius: 10px;
+    content: "hi";
+}
